@@ -1,0 +1,25 @@
+.backdrop{
+	background:url(../images/Layer.png) no-repeat ;
+	background-size:cover;
+	min-height:670px;
+}
+
+#contacts,#contacts a{
+	background:#af9559;
+	color:#fff;
+}
+#contacts>*{
+	/* display:inline-flex; */
+	color:#fff;
+	
+}
+.contacts {
+	display:table;
+	margin:0 auto;
+	width:83.3333333333%;
+	height:48px;
+}
+.contacts>*{
+	display:table-cell;
+}
+
