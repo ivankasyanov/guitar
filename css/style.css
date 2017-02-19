@@ -1,25 +1,141 @@
+html,body{
+	height:100%;
+}
 .backdrop{
 	background:url(../images/Layer.png) no-repeat ;
 	background-size:cover;
 	min-height:670px;
+	position:relative;
 }
 
 #contacts,#contacts a{
 	background:#af9559;
 	color:#fff;
+
 }
 #contacts>*{
 	/* display:inline-flex; */
 	color:#fff;
-	
 }
 .contacts {
 	display:table;
 	margin:0 auto;
 	width:83.3333333333%;
 	height:48px;
+	line-height:48px;
 }
 .contacts>*{
 	display:table-cell;
 }
+.whiteheader{
+	background:#fff;
+}
+.whiteheader1{
+	width:82.5833333333%;
+	margin:0 auto;
+}
 
+.logo{
+	text-align:center;
+	display:inline-block;
+	width:29.1666666667%;
+}
+.logo img{
+	max-width:100%;
+}
+.logo+input{
+	width:31.5833333333%;
+}
+.backdrop button{
+	margin-left:2.58333333333%;
+	width:12.5833333333%;
+}
+nav{
+	display:flex;
+	justify-content:space-around;
+	width:100%;
+	margin:0 auto;
+}
+nav a:first-child{
+	color:#af9559;
+}
+nav a{
+	color:#000;
+	text-decoration:none;
+}
+.newitems{
+	width:41.6666666667%;
+	color:#fff;
+	position:absolute;
+	top:47.533632287%;
+	right:8.16666666667%;
+	font-size:1.16666666667rem;
+}
+.newitems p:first-child{
+	color:#b0b0b0;
+}
+.newitems p:nth-child(2){
+	font-size:3.33333333333rem;
+}
+
+.newitems p{
+	margin-top:0;
+	margin-bottom:0;
+}
+.partners{
+	width:100%;
+	display:flex;
+	justify-content:space-around;
+	position:relative;
+}
+.partners a{
+	
+	
+}
+.partners a:nth-child(1) img{
+		position:absolute;
+	clip:rect(280px,140px,auto,auto);
+	width:980px;
+}
+/* .partners a:nth-child(1) img{
+	clip:rect(140px,280px,auto,auto);
+}
+.partners a:nth-child(2) img{
+	clip:rect(280px,140px,auto,auto);
+} */
+/* .partners a:nth-child(2) img{
+	clip:rect(280px,140px,auto,auto);
+} */
+.partners+p{
+	text-align:center;
+	text-transform:uppercase;
+	text-decoration:underline;
+	color:#b2a8a8;
+	font-size:1.16666666667rem;
+}
+.partners+p:after{
+	content:'';
+	display:block;
+	position:relative;
+	width:83.3333333333%;
+	margin:0 auto;
+	background:linear-gradient(to right, #fff, #b2a8a8 41%, transparent 44%,transparent 56%, #b2a8a8 59%, #fff);
+	height:1px;
+	transform:translateY(-10px);
+}
+h1{
+	text-align:center;
+	font-size:3.33333333333rem;
+}
+.tooling1{
+	display:table;
+	width:24.5%;
+	margin:0 auto;
+	border-radius:10%;
+	background:#503737;
+	
+}
+.tooling1 a{
+	color:#fff;
+	text-decoration:none;
+}
