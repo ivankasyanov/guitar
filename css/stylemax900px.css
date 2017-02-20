@@ -1,0 +1,31 @@
+.contacts1{
+	width:30%;
+}
+.contacts>*{
+	margin-top:0;
+	margin-bottom:0;
+	padding-top:0;
+	padding-bottom:0;
+	display:inline;
+}
+.contacts{
+	width:100%;
+	margin:0;
+}
+.contacts p{
+	float:left;
+	margin-right:15%;
+	clear:both;
+}
+.contacts a{
+	width:100%;
+	margin-right:1%;
+}
+.whiteheader button{
+	width:30%;
+}
+nav{
+	
+	font-size:1.2rem;
+	font-variant:small-caps;
+}

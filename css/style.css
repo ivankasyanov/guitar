@@ -24,6 +24,7 @@ html,body{
 	height:48px;
 	line-height:48px;
 }
+
 .contacts>*{
 	display:table-cell;
 }
@@ -83,29 +84,42 @@ nav a{
 	margin-bottom:0;
 }
 .partners{
-	width:100%;
+	width:81.6666666667%;
+	margin:0 auto;
 	display:flex;
 	justify-content:space-around;
 	position:relative;
 }
 .partners a{
+	display:inline-block;
+	min-width:10%;
+	height:70px;
+	background:url(../images/partners.png) no-repeat;
+	overflow:hidden;
 	
-	
 }
-.partners a:nth-child(1) img{
-		position:absolute;
-	clip:rect(280px,140px,auto,auto);
-	width:980px;
+.partners a:nth-child(1){
+	background-position-X:-3.444%;
+	background-size:cover;
 }
-/* .partners a:nth-child(1) img{
-	clip:rect(140px,280px,auto,auto);
+.partners a:nth-child(2){
+	background-position-X:15.5555555556%;
 }
-.partners a:nth-child(2) img{
-	clip:rect(280px,140px,auto,auto);
-} */
-/* .partners a:nth-child(2) img{
-	clip:rect(280px,140px,auto,auto);
-} */
+.partners a:nth-child(3){
+	background-position-X:31.1111111112%;
+}
+.partners a:nth-child(4){
+	background-position-X:46.6666666668%;
+}
+.partners a:nth-child(5){
+	background-position-X:65.2222222224%;
+}
+.partners a:nth-child(6){
+	background-position-X:84.778%;
+}
+.partners a:nth-child(7){
+	background-position-X:104%;
+}
 .partners+p{
 	text-align:center;
 	text-transform:uppercase;
@@ -128,14 +142,23 @@ h1{
 	font-size:3.33333333333rem;
 }
 .tooling1{
-	display:table;
+	display:flex;
+	justify-content:space-around;
 	width:24.5%;
 	margin:0 auto;
-	border-radius:10%;
+	border-top-left-radius:6% 37%;
+	border-top-right-radius:6% 37%;
+	border-bottom-left-radius:6% 37%;
+	border-bottom-right-radius:6% 37%;
 	background:#503737;
-	
+	padding:1%;
 }
 .tooling1 a{
+	font-size:1.16666666667rem;
 	color:#fff;
 	text-decoration:none;
+}
+.tooling1 a:hover{
+	background:red;
+	display:inline-block;
 }
