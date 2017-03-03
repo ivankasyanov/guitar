@@ -68,6 +68,7 @@ nav{
 nav .button{
 	background:transparent;
 	border-style:hidden;
+	padding:0 2%;
 }
 nav .button:hover{
 	background:#ff2d2d;
@@ -251,8 +252,12 @@ h1{
 	transition:border 0.5s;
 	vertical-align:text-bottom;
 }
+
+
 .tooling1~table td:hover{
 	border:1px solid #ad9797;
+}
+
 }
 .tooling1~table td:nth-child(3){
 	padding:0;
@@ -271,10 +276,11 @@ h1{
 	font-size:2.5rem;
 	color:#e73939;
 }
-.tooling1+table tr:last-child td{
+.tooling1~table tr:last-child td,.stock2+div table tr:last-child td{
 	padding:0;
 	border:none;
 }
+
 .icons1,.icons2,.icons3,.icons4{
 	background:#503737;
 	text-align:center;
@@ -357,6 +363,7 @@ h1{
 
 .icons1 button img,.icons2 button img,.icons3 button img,.icons4 button img{
 	max-height:100%;
+	
 }
 .tooling2{
 	width:31.5%;
@@ -385,7 +392,7 @@ h1{
 	width:83.3333333333%;
 	margin:0 auto;
 	border:1px solid #d6cbcb;
-	padding:5% 0;
+	padding:5% 0 5%;
 	
 }
 .services2,.services3{
@@ -410,10 +417,10 @@ h1{
 }
 .services2 figure:first-child:after{
 	content:'Цикл, в том числе, выстраивает пласт. Как мы уже знаем, форшлаг регрессийно образует звукорядный хорус.';
-	
 	position:absolute;
 	left:0%;
 	top:125%;
+	
 }
 .services2 figure:nth-child(2):after{
 	content:'Мы осуществляем проектирование и монтаж всего спектра поставляемого оборудования на любых типах объектов.';
@@ -476,7 +483,7 @@ h1{
 .stock2+div{
 	position:relative;
 }
-.stock2+div button{
+.stock2+div>button{
 	background:#d3ba7e;
 	-moz-border-radius:100%;
 	-webkit-border-radius:100%;
@@ -514,10 +521,10 @@ h1{
 .stock2+div table td:nth-child(1) figcaption{
 	transform:translateY(-10%);
 }
-.stock2+div table tr:last-child td{
+/* .stock2+div table tr:last-child td{
 	padding:0;
 	border:none;
-}
+} */
 .newitems2{
 	width:31.5%;
 	margin:0 auto;
