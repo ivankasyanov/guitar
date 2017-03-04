@@ -1,4 +1,5 @@
 @media (min-width:1401px) and (max-width:1700px){
+<<<<<<< HEAD
 	nav{
 		width:100%;
 	}
@@ -181,4 +182,62 @@
 		padding:5% 0 3% 50%;
 	}
 	
+=======
+	.partners a{
+		background-size:auto 80%;
+	}
+}
+@media (min-width:901px) and (max-width:1400px){
+	.partners a{
+		background-size:auto 62%;
+	}
+}
+
+@media (min-width:800px) and (max-width:900px){
+	.contacts1{
+	width:30%;
+	}
+	.contacts>*{
+		margin-top:0;
+		margin-bottom:0;
+		padding-top:0;
+		padding-bottom:0;
+		display:inline;
+	}
+	.contacts{
+		width:100%;
+		margin:0;
+	}
+	.contacts p{
+		float:left;
+		margin-right:15%;
+		clear:both;
+	}
+	.contacts a{
+		width:100%;
+		margin-right:1%;
+	}
+	.whiteheader button{
+		width:30%;
+	}
+	nav{
+		
+		font-size:1.2rem;
+		font-variant:small-caps;
+	}
+	.partners a{
+		background-size:auto 56%;
+	}
+	.services{
+		height:134%;
+		background:red;
+	}
+}
+@media (max-width:800px){
+	.partners,.partners+p {
+		display:none;
+	}
+	
+	
+>>>>>>> fa622f6364ff7f03f23984d7880ac41d8f3c80a7
 }
