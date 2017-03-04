@@ -80,7 +80,8 @@
 		width:30%;
 	}
 	nav{
-		
+		justify-content:space-between;
+		flex-wrap:wrap-reverse;
 		font-size:1.2rem;
 		font-variant:small-caps;
 	}
@@ -147,7 +148,8 @@
 		width:30%;
 	}
 	nav{
-		
+		justify-content:space-between;
+		flex-wrap:wrap-reverse;
 		font-size:1.2rem;
 		font-variant:small-caps;
 	}
