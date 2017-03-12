@@ -1,5 +1,4 @@
 @media (min-width:1401px) and (max-width:1700px){
-<<<<<<< HEAD
 	nav{
 		width:100%;
 	}
@@ -42,12 +41,15 @@
 		margin-top:24%;
 		-ms-margin-top:10%;
 	}
+	.newsfeed{
+		padding:0;
+	}
 	
 	/* .news>section, .overview>section{
 		padding:5% 0 3% 29%;
 	} */
 	.news>section, .overview>section{
-		padding:5% 0 3% 34%;
+		padding:0 0 3% 34%;
 	}
 }
 
@@ -110,8 +112,13 @@
 	.services3{
 		margin-top:31%;
 	}
+	
 	.news>section, .overview>section{
-		padding:5% 0 3% 46%;
+		/* padding:5% 0 3% 50%; */
+		padding:0;
+	}
+	.news section,.overview section{
+		background:none !important;
 	}
 	
 }
@@ -212,7 +219,7 @@
 	.services2 figcaption, .services3 figcaption{
 		text-align:center;
 		text-transform:uppercase;
-		.services2 figcaption, .services3 figcaption
+		
 	}
 	.services2 figure:after, .services3 figure:after{
 		display:none;
@@ -226,13 +233,24 @@
 		margin-top:40%;
 	} */
 	.news>section, .overview>section{
-		padding:5% 0 3% 50%;
+		/* padding:5% 0 3% 50%; */
+		padding:0;
 	}
-	
+	.news section,.overview section{
+		background:none !important;
+	}
 
 	.partners a{
 		background-size:auto 80%;
 	}
+	footer div div:nth-child(1),footer div div:nth-child(3){
+		display:none;
+	}
+	footer div div:nth-child(2){
+		width:50%;
+		margin:0 auto;
+	}
+	
 }
 
 
